@@ -7,7 +7,7 @@ import Work from "./components/Work";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-// import { Routes, Route } from "react-router-dom";
+// girimport { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
