@@ -18,14 +18,16 @@ function App() {
           <i class="fa-solid fa-circle-half-stroke"></i>
         </label>
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route path="/skill" element={<Skill />} />
-          <Route path="/project" element={<Work />} />
-          <Route path="/about-me" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-
+        <div className="main">
+          <Routes>
+            <Route path="" element={<Hero />} />
+            <Route path="home" element={<Info />} />
+            <Route path="skills" element={<Skill />} />
+            <Route path="projects" element={<Work />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+          </Routes>
+        </div>
         {/* <Hero />
         <Info />
         <Skill />

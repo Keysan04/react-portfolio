@@ -1,5 +1,4 @@
 import React from "react";
-
 const Info = () => {
   return (
     <section className="flex container banner">
