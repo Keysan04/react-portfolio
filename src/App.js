@@ -7,7 +7,7 @@ import Work from "./components/Work";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-// girimport { Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
@@ -18,20 +18,21 @@ function App() {
           <i class="fa-solid fa-circle-half-stroke"></i>
         </label>
         <Navbar />
-        {/* <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route path="/skill" element={<Skill />} />
-          <Route path="/project" element={<Work />} />
-          <Route path="/about-me" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes> */}
-
-        <Hero />
+        <div className="main">
+          <Routes>
+            <Route path="/" element={<Hero />} />
+            <Route path="/skill" element={<Skill />} />
+            <Route path="/project" element={<Work />} />
+            <Route path="/about-me" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+        {/* <Hero />
         <Info />
         <Skill />
         <Work />
         <About />
-        <Contact />
+        <Contact /> */}
         <Footer />
       </div>
     </>
