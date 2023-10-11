@@ -7,7 +7,7 @@ export const Navbar = () => {
       <nav className="container flex navigation">
         <div className="flex nav-left">
           <h3>Kishan</h3>
-          <div className="line">Soft. Engineer</div>
+          <div className="line">Soft</div>
         </div>
         <div className="menu">
           <ul className="flex">

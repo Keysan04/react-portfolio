@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <section id="#contact" className="contact">
-      <h2 className="title">Contact Me</h2>
+      <h2 className="title">Contasdfdsfdsct Me</h2>
       <div className="container">
         <div className="socials flex">
           <a href="">
