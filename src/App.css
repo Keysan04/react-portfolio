@@ -85,8 +85,8 @@ header {
 .line::before {
   content: "";
   width: 4px;
-  height: 40%;
-  left: 37%;
+  height: 60%;
+  left: 65%;
   position: absolute;
   background: var(--color-orange);
 }
@@ -297,5 +297,5 @@ header {
 }
 
 .main {
-  min-height: 80vh;
+  min-height: 78vh;
 }

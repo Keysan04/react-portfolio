@@ -7,7 +7,7 @@ import Work from "./components/Work";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-// import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
@@ -18,22 +18,22 @@ function App() {
           <i class="fa-solid fa-circle-half-stroke"></i>
         </label>
         <Navbar />
-        {/* <div className="main">
+        <div className="main">
           <Routes>
             <Route path="" element={<Hero />} />
-            <Route path="home" element={<Info />} />
-            <Route path="skills" element={<Skill />} />
-            <Route path="projects" element={<Work />} />
-            <Route path="about" element={<About />} />
-            <Route path="contact" element={<Contact />} />
+            <Route path="/home" element={<Info />} />
+            <Route path="/skills" element={<Skill />} />
+            <Route path="/projects" element={<Work />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
-        </div> */}
-        <Hero />
+        </div>
+        {/* <Hero />
         <Info />
         <Skill />
         <Work />
         <About />
-        <Contact />
+        <Contact /> */}
         <Footer />
       </div>
     </>
