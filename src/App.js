@@ -20,9 +20,10 @@ function App() {
         <Navbar />
         <div className="main">
           <Routes>
-            <Route path="/hero" element={<Hero />} />
-            <Route path="/skill" element={<Skill />} />
-            <Route path="/project" element={<Work />} />
+            <Route path="`" element={<Hero />} />
+            <Route path="/home" element={<Info />} />
+            <Route path="/skills" element={<Skill />} />
+            <Route path="/projects" element={<Work />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
