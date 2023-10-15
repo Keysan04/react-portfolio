@@ -85,8 +85,8 @@ header {
 .line::before {
   content: "";
   width: 4px;
-  height: 40%;
-  left: 37%;
+  height: 60%;
+  left: 46%;
   position: absolute;
   background: var(--color-orange);
 }

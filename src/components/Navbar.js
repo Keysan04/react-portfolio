@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import "../App.css";
 export const Navbar = () => {
   return (
@@ -6,24 +7,24 @@ export const Navbar = () => {
       <nav className="container flex navigation">
         <div className="flex nav-left">
           <h3>Kishan</h3>
-          <div className="line">Soft. Engineer</div>
+          <div className="line">Software Eng.</div>
         </div>
         <div className="menu">
           <ul className="flex">
             <li>
-              <a href="#home">Home</a>
+              <Link to="/home">Home</Link>
             </li>
             <li>
-              <a href="#skills">Skills</a>
+              <Link to="/skills">Skills</Link>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <a href="#about">About Me</a>
+              <Link to="/about">About Me</Link>
             </li>
             <li>
-              <a href="#contact">Contact Me</a>
+              <Link to="/contact">Contact Me</Link>
             </li>
           </ul>
         </div>

@@ -12,7 +12,7 @@ export const Hero = () => {
           <h3>Software Engineer</h3>
           <p>I love coding and teach others what I know</p>
           <button className="download-btn">
-            <a href="../assets/portfolio-website.pdf">
+            <a href="../assets/Kishan_Thapa_CV.pdf">
               <i class="fa-solid fa-download"></i>Download CV
             </a>
           </button>

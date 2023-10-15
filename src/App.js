@@ -20,10 +20,10 @@ function App() {
         <Navbar />
         <div className="main">
           <Routes>
-            <Route path="/" element={<Hero />} />
+            <Route path="/hero" element={<Hero />} />
             <Route path="/skill" element={<Skill />} />
             <Route path="/project" element={<Work />} />
-            <Route path="/about-me" element={<About />} />
+            <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
