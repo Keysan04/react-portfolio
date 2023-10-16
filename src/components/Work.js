@@ -1,5 +1,6 @@
 import React from "react";
-import projectImage from "../assets/Himal.jpg";
+import projectImage from "../assets/ieims.PNG";
+import kukl from "../assets/KUKL.PNG";
 const Work = () => {
   return (
     <section id="projects">
@@ -43,7 +44,7 @@ const Work = () => {
         </div>
         <div className="project-card">
           <div className="top">
-            <img src={projectImage} alt="project-img" />
+            <img src={kukl} alt="project-img" />
           </div>
           <div className="bottom-container">
             <h3>IEIMS </h3>
